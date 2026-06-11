@@ -1,0 +1,18 @@
+POST http://localhost:3000/registro
+Content-Type: application/json
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+
+
+### ejemplo incidencia
+POST http://localhost:3000/incidencia
+Content-Type: application/json
+
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
